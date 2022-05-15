@@ -6,5 +6,10 @@ namespace Johan_TicTacToe
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

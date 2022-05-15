@@ -1,0 +1,17 @@
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\bin\Debug\net6.0-windows\Johan_TicTacToe.exe
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\bin\Debug\net6.0-windows\Johan_TicTacToe.deps.json
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\bin\Debug\net6.0-windows\Johan_TicTacToe.runtimeconfig.json
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\bin\Debug\net6.0-windows\Johan_TicTacToe.dll
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\bin\Debug\net6.0-windows\Johan_TicTacToe.pdb
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\Johan_TicTacToe.csproj.AssemblyReference.cache
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\Johan_TicTacToe.Form1.resources
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\Johan_TicTacToe.csproj.GenerateResource.cache
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\Johan_TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\Johan_TicTacToe.AssemblyInfoInputs.cache
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\Johan_TicTacToe.AssemblyInfo.cs
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\Johan_TicTacToe.csproj.CoreCompileInputs.cache
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\Johan_TicTacToe.dll
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\refint\Johan_TicTacToe.dll
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\Johan_TicTacToe.pdb
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\Johan_TicTacToe.genruntimeconfig.cache
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\ref\Johan_TicTacToe.dll
