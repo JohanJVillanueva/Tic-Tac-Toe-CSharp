@@ -2,14 +2,14 @@ namespace Johan_TicTacToe
 {
     public partial class Form1 : Form
     {
-        int flip = 1;
-        
+        bool flip = false;
+
         public Form1()
         {
             InitializeComponent();
             //First Row
-            pctOx1y1.Visible=false;
-            pctXx1y1.Visible=false;
+            pctOx1y1.Visible = false;
+            pctXx1y1.Visible = false;
 
             pctOx2y1.Visible = false;
             pctXx2y1.Visible = false;
@@ -40,7 +40,7 @@ namespace Johan_TicTacToe
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -65,8 +65,8 @@ namespace Johan_TicTacToe
         {
             btn11.Enabled = false;
             btn11.Visible = false;
-            flip = flip + 1;
-            if (flip % 2 == 0) 
+     
+            if (flip)
             {
                 //MessageBox.Show("0");
                 pctOx1y1.Visible = true;
@@ -77,12 +77,12 @@ namespace Johan_TicTacToe
                 //MessageBox.Show("X");
                 pctXx1y1.Visible = true;
             }
-            
-            
+            flip = !flip;
+
         }
         private void btn33_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void pctXx1y1_Click(object sender, EventArgs e)
@@ -94,8 +94,8 @@ namespace Johan_TicTacToe
         {
             btn21.Enabled = false;
             btn21.Visible = false;
-            flip = flip + 1;
-            if (flip % 2 == 0)
+            
+            if (flip)
             {
                 //MessageBox.Show("0");
                 pctOx2y1.Visible = true;
@@ -106,6 +106,61 @@ namespace Johan_TicTacToe
                 //MessageBox.Show("X");
                 pctXx2y1.Visible = true;
             }
+            flip = !flip;
+        }
+
+        private void btn31_Click(object sender, EventArgs e)
+        {
+            btn31.Enabled = false;
+            btn31.Visible = false;
+            if (flip)
+            {
+                //MessageBox.Show("0");
+                pctOx3y1.Visible = true;
+
+            }
+            else
+            {
+                //MessageBox.Show("X");
+                pctXx3y1.Visible = true;
+            }
+            flip = !flip;
+        }
+
+        private void btn12_Click(object sender, EventArgs e)
+        {
+            btn12.Enabled = false;
+            btn12.Visible = false;
+            if (flip)
+            {
+                //MessageBox.Show("0");
+                pctOx1y2.Visible = true;
+
+            }
+            else
+            {
+                //MessageBox.Show("X");
+                pctXx1y2.Visible = true;
+            }
+            flip = !flip;
+        }
+
+        private void btn22_Click(object sender, EventArgs e)
+        {
+            btn22.Enabled = false;
+            btn22.Visible = false;
+            if (flip)
+            {
+                //MessageBox.Show("0");
+                pctOx2y2.Visible = true;
+
+            }
+            else
+            {
+                //MessageBox.Show("X");
+                pctXx2y2.Visible = true;
+            }
+            flip = !flip;
         }
     }
 }
