@@ -44,10 +44,42 @@
             this.btn13 = new System.Windows.Forms.Button();
             this.pctOx1y1 = new System.Windows.Forms.PictureBox();
             this.pctXx1y1 = new System.Windows.Forms.PictureBox();
+            this.pctXx2y1 = new System.Windows.Forms.PictureBox();
+            this.pctOx2y1 = new System.Windows.Forms.PictureBox();
+            this.pctXx3y1 = new System.Windows.Forms.PictureBox();
+            this.pctOx3y1 = new System.Windows.Forms.PictureBox();
+            this.pctXx1y2 = new System.Windows.Forms.PictureBox();
+            this.pctOx1y2 = new System.Windows.Forms.PictureBox();
+            this.pctXx2y2 = new System.Windows.Forms.PictureBox();
+            this.pctOx2y2 = new System.Windows.Forms.PictureBox();
+            this.pctXx3y2 = new System.Windows.Forms.PictureBox();
+            this.pctOx3y2 = new System.Windows.Forms.PictureBox();
+            this.pctXx1y3 = new System.Windows.Forms.PictureBox();
+            this.pctOx1y3 = new System.Windows.Forms.PictureBox();
+            this.pctXx2y3 = new System.Windows.Forms.PictureBox();
+            this.pctOx2y3 = new System.Windows.Forms.PictureBox();
+            this.pctXx3y3 = new System.Windows.Forms.PictureBox();
+            this.pctOx3y3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctOx1y1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctXx1y1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx2y1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx2y1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx3y1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx3y1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx1y2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx1y2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx2y2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx2y2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx3y2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx3y2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx1y3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx1y3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx2y3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx2y3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx3y3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx3y3)).BeginInit();
             this.SuspendLayout();
             // 
             // btnRetry
@@ -114,6 +146,7 @@
             this.btn21.Size = new System.Drawing.Size(106, 94);
             this.btn21.TabIndex = 5;
             this.btn21.UseVisualStyleBackColor = true;
+            this.btn21.Click += new System.EventHandler(this.btn21_Click);
             // 
             // btn31
             // 
@@ -175,7 +208,7 @@
             // pctOx1y1
             // 
             this.pctOx1y1.Image = ((System.Drawing.Image)(resources.GetObject("pctOx1y1.Image")));
-            this.pctOx1y1.Location = new System.Drawing.Point(110, 174);
+            this.pctOx1y1.Location = new System.Drawing.Point(110, 185);
             this.pctOx1y1.Name = "pctOx1y1";
             this.pctOx1y1.Size = new System.Drawing.Size(106, 95);
             this.pctOx1y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -186,7 +219,7 @@
             // pctXx1y1
             // 
             this.pctXx1y1.Image = ((System.Drawing.Image)(resources.GetObject("pctXx1y1.Image")));
-            this.pctXx1y1.Location = new System.Drawing.Point(110, 173);
+            this.pctXx1y1.Location = new System.Drawing.Point(110, 196);
             this.pctXx1y1.Name = "pctXx1y1";
             this.pctXx1y1.Size = new System.Drawing.Size(106, 96);
             this.pctXx1y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -194,11 +227,187 @@
             this.pctXx1y1.TabStop = false;
             this.pctXx1y1.Click += new System.EventHandler(this.pctXx1y1_Click);
             // 
+            // pctXx2y1
+            // 
+            this.pctXx2y1.Image = ((System.Drawing.Image)(resources.GetObject("pctXx2y1.Image")));
+            this.pctXx2y1.Location = new System.Drawing.Point(242, 216);
+            this.pctXx2y1.Name = "pctXx2y1";
+            this.pctXx2y1.Size = new System.Drawing.Size(106, 96);
+            this.pctXx2y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctXx2y1.TabIndex = 16;
+            this.pctXx2y1.TabStop = false;
+            // 
+            // pctOx2y1
+            // 
+            this.pctOx2y1.Image = ((System.Drawing.Image)(resources.GetObject("pctOx2y1.Image")));
+            this.pctOx2y1.Location = new System.Drawing.Point(242, 185);
+            this.pctOx2y1.Name = "pctOx2y1";
+            this.pctOx2y1.Size = new System.Drawing.Size(106, 95);
+            this.pctOx2y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctOx2y1.TabIndex = 15;
+            this.pctOx2y1.TabStop = false;
+            // 
+            // pctXx3y1
+            // 
+            this.pctXx3y1.Image = ((System.Drawing.Image)(resources.GetObject("pctXx3y1.Image")));
+            this.pctXx3y1.Location = new System.Drawing.Point(375, 216);
+            this.pctXx3y1.Name = "pctXx3y1";
+            this.pctXx3y1.Size = new System.Drawing.Size(106, 96);
+            this.pctXx3y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctXx3y1.TabIndex = 18;
+            this.pctXx3y1.TabStop = false;
+            // 
+            // pctOx3y1
+            // 
+            this.pctOx3y1.Image = ((System.Drawing.Image)(resources.GetObject("pctOx3y1.Image")));
+            this.pctOx3y1.Location = new System.Drawing.Point(375, 185);
+            this.pctOx3y1.Name = "pctOx3y1";
+            this.pctOx3y1.Size = new System.Drawing.Size(106, 95);
+            this.pctOx3y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctOx3y1.TabIndex = 17;
+            this.pctOx3y1.TabStop = false;
+            // 
+            // pctXx1y2
+            // 
+            this.pctXx1y2.Image = ((System.Drawing.Image)(resources.GetObject("pctXx1y2.Image")));
+            this.pctXx1y2.Location = new System.Drawing.Point(110, 345);
+            this.pctXx1y2.Name = "pctXx1y2";
+            this.pctXx1y2.Size = new System.Drawing.Size(106, 96);
+            this.pctXx1y2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctXx1y2.TabIndex = 20;
+            this.pctXx1y2.TabStop = false;
+            // 
+            // pctOx1y2
+            // 
+            this.pctOx1y2.Image = ((System.Drawing.Image)(resources.GetObject("pctOx1y2.Image")));
+            this.pctOx1y2.Location = new System.Drawing.Point(110, 314);
+            this.pctOx1y2.Name = "pctOx1y2";
+            this.pctOx1y2.Size = new System.Drawing.Size(106, 95);
+            this.pctOx1y2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctOx1y2.TabIndex = 19;
+            this.pctOx1y2.TabStop = false;
+            // 
+            // pctXx2y2
+            // 
+            this.pctXx2y2.Image = ((System.Drawing.Image)(resources.GetObject("pctXx2y2.Image")));
+            this.pctXx2y2.Location = new System.Drawing.Point(242, 364);
+            this.pctXx2y2.Name = "pctXx2y2";
+            this.pctXx2y2.Size = new System.Drawing.Size(106, 96);
+            this.pctXx2y2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctXx2y2.TabIndex = 22;
+            this.pctXx2y2.TabStop = false;
+            // 
+            // pctOx2y2
+            // 
+            this.pctOx2y2.Image = ((System.Drawing.Image)(resources.GetObject("pctOx2y2.Image")));
+            this.pctOx2y2.Location = new System.Drawing.Point(242, 333);
+            this.pctOx2y2.Name = "pctOx2y2";
+            this.pctOx2y2.Size = new System.Drawing.Size(106, 95);
+            this.pctOx2y2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctOx2y2.TabIndex = 21;
+            this.pctOx2y2.TabStop = false;
+            // 
+            // pctXx3y2
+            // 
+            this.pctXx3y2.Image = ((System.Drawing.Image)(resources.GetObject("pctXx3y2.Image")));
+            this.pctXx3y2.Location = new System.Drawing.Point(375, 364);
+            this.pctXx3y2.Name = "pctXx3y2";
+            this.pctXx3y2.Size = new System.Drawing.Size(106, 96);
+            this.pctXx3y2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctXx3y2.TabIndex = 24;
+            this.pctXx3y2.TabStop = false;
+            // 
+            // pctOx3y2
+            // 
+            this.pctOx3y2.Image = ((System.Drawing.Image)(resources.GetObject("pctOx3y2.Image")));
+            this.pctOx3y2.Location = new System.Drawing.Point(375, 333);
+            this.pctOx3y2.Name = "pctOx3y2";
+            this.pctOx3y2.Size = new System.Drawing.Size(106, 95);
+            this.pctOx3y2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctOx3y2.TabIndex = 23;
+            this.pctOx3y2.TabStop = false;
+            // 
+            // pctXx1y3
+            // 
+            this.pctXx1y3.Image = ((System.Drawing.Image)(resources.GetObject("pctXx1y3.Image")));
+            this.pctXx1y3.Location = new System.Drawing.Point(110, 504);
+            this.pctXx1y3.Name = "pctXx1y3";
+            this.pctXx1y3.Size = new System.Drawing.Size(106, 96);
+            this.pctXx1y3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctXx1y3.TabIndex = 26;
+            this.pctXx1y3.TabStop = false;
+            // 
+            // pctOx1y3
+            // 
+            this.pctOx1y3.Image = ((System.Drawing.Image)(resources.GetObject("pctOx1y3.Image")));
+            this.pctOx1y3.Location = new System.Drawing.Point(110, 473);
+            this.pctOx1y3.Name = "pctOx1y3";
+            this.pctOx1y3.Size = new System.Drawing.Size(106, 95);
+            this.pctOx1y3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctOx1y3.TabIndex = 25;
+            this.pctOx1y3.TabStop = false;
+            // 
+            // pctXx2y3
+            // 
+            this.pctXx2y3.Image = ((System.Drawing.Image)(resources.GetObject("pctXx2y3.Image")));
+            this.pctXx2y3.Location = new System.Drawing.Point(242, 513);
+            this.pctXx2y3.Name = "pctXx2y3";
+            this.pctXx2y3.Size = new System.Drawing.Size(106, 96);
+            this.pctXx2y3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctXx2y3.TabIndex = 28;
+            this.pctXx2y3.TabStop = false;
+            // 
+            // pctOx2y3
+            // 
+            this.pctOx2y3.Image = ((System.Drawing.Image)(resources.GetObject("pctOx2y3.Image")));
+            this.pctOx2y3.Location = new System.Drawing.Point(242, 482);
+            this.pctOx2y3.Name = "pctOx2y3";
+            this.pctOx2y3.Size = new System.Drawing.Size(106, 95);
+            this.pctOx2y3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctOx2y3.TabIndex = 27;
+            this.pctOx2y3.TabStop = false;
+            // 
+            // pctXx3y3
+            // 
+            this.pctXx3y3.Image = ((System.Drawing.Image)(resources.GetObject("pctXx3y3.Image")));
+            this.pctXx3y3.Location = new System.Drawing.Point(375, 513);
+            this.pctXx3y3.Name = "pctXx3y3";
+            this.pctXx3y3.Size = new System.Drawing.Size(106, 96);
+            this.pctXx3y3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctXx3y3.TabIndex = 30;
+            this.pctXx3y3.TabStop = false;
+            // 
+            // pctOx3y3
+            // 
+            this.pctOx3y3.Image = ((System.Drawing.Image)(resources.GetObject("pctOx3y3.Image")));
+            this.pctOx3y3.Location = new System.Drawing.Point(375, 482);
+            this.pctOx3y3.Name = "pctOx3y3";
+            this.pctOx3y3.Size = new System.Drawing.Size(106, 95);
+            this.pctOx3y3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctOx3y3.TabIndex = 29;
+            this.pctOx3y3.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(590, 598);
+            this.Controls.Add(this.pctXx3y3);
+            this.Controls.Add(this.pctOx3y3);
+            this.Controls.Add(this.pctXx2y3);
+            this.Controls.Add(this.pctOx2y3);
+            this.Controls.Add(this.pctXx1y3);
+            this.Controls.Add(this.pctOx1y3);
+            this.Controls.Add(this.pctXx3y2);
+            this.Controls.Add(this.pctOx3y2);
+            this.Controls.Add(this.pctXx2y2);
+            this.Controls.Add(this.pctOx2y2);
+            this.Controls.Add(this.pctXx1y2);
+            this.Controls.Add(this.pctOx1y2);
+            this.Controls.Add(this.pctXx3y1);
+            this.Controls.Add(this.pctOx3y1);
+            this.Controls.Add(this.pctXx2y1);
+            this.Controls.Add(this.pctOx2y1);
             this.Controls.Add(this.pctXx1y1);
             this.Controls.Add(this.pctOx1y1);
             this.Controls.Add(this.btn33);
@@ -225,6 +434,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctOx1y1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctXx1y1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx2y1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx2y1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx3y1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx3y1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx1y2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx1y2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx2y2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx2y2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx3y2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx3y2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx1y3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx1y3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx2y3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx2y3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx3y3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx3y3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -246,5 +471,21 @@
         private Button btn13;
         private PictureBox pctOx1y1;
         private PictureBox pctXx1y1;
+        private PictureBox pctXx2y1;
+        private PictureBox pctOx2y1;
+        private PictureBox pctXx3y1;
+        private PictureBox pctOx3y1;
+        private PictureBox pctXx1y2;
+        private PictureBox pctOx1y2;
+        private PictureBox pctXx2y2;
+        private PictureBox pctOx2y2;
+        private PictureBox pctXx3y2;
+        private PictureBox pctOx3y2;
+        private PictureBox pctXx1y3;
+        private PictureBox pctOx1y3;
+        private PictureBox pctXx2y3;
+        private PictureBox pctOx2y3;
+        private PictureBox pctXx3y3;
+        private PictureBox pctOx3y3;
     }
 }
