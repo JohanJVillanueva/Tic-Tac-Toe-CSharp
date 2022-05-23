@@ -42,8 +42,12 @@
             this.btn33 = new System.Windows.Forms.Button();
             this.btn23 = new System.Windows.Forms.Button();
             this.btn13 = new System.Windows.Forms.Button();
+            this.pctOx1y1 = new System.Windows.Forms.PictureBox();
+            this.pctXx1y1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx1y1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx1y1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnRetry
@@ -150,6 +154,7 @@
             this.btn33.Size = new System.Drawing.Size(106, 94);
             this.btn33.TabIndex = 12;
             this.btn33.UseVisualStyleBackColor = true;
+            this.btn33.Click += new System.EventHandler(this.btn33_Click);
             // 
             // btn23
             // 
@@ -167,11 +172,35 @@
             this.btn13.TabIndex = 10;
             this.btn13.UseVisualStyleBackColor = true;
             // 
+            // pctOx1y1
+            // 
+            this.pctOx1y1.Image = ((System.Drawing.Image)(resources.GetObject("pctOx1y1.Image")));
+            this.pctOx1y1.Location = new System.Drawing.Point(110, 174);
+            this.pctOx1y1.Name = "pctOx1y1";
+            this.pctOx1y1.Size = new System.Drawing.Size(106, 95);
+            this.pctOx1y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctOx1y1.TabIndex = 13;
+            this.pctOx1y1.TabStop = false;
+            this.pctOx1y1.Click += new System.EventHandler(this.pctOx1y1_Click);
+            // 
+            // pctXx1y1
+            // 
+            this.pctXx1y1.Image = ((System.Drawing.Image)(resources.GetObject("pctXx1y1.Image")));
+            this.pctXx1y1.Location = new System.Drawing.Point(110, 173);
+            this.pctXx1y1.Name = "pctXx1y1";
+            this.pctXx1y1.Size = new System.Drawing.Size(106, 96);
+            this.pctXx1y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctXx1y1.TabIndex = 14;
+            this.pctXx1y1.TabStop = false;
+            this.pctXx1y1.Click += new System.EventHandler(this.pctXx1y1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(590, 598);
+            this.Controls.Add(this.pctXx1y1);
+            this.Controls.Add(this.pctOx1y1);
             this.Controls.Add(this.btn33);
             this.Controls.Add(this.btn23);
             this.Controls.Add(this.btn13);
@@ -194,6 +223,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctOx1y1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctXx1y1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -213,5 +244,7 @@
         private Button btn33;
         private Button btn23;
         private Button btn13;
+        private PictureBox pctOx1y1;
+        private PictureBox pctXx1y1;
     }
 }
