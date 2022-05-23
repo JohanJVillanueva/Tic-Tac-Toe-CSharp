@@ -101,6 +101,7 @@
             this.btn11.Size = new System.Drawing.Size(106, 94);
             this.btn11.TabIndex = 4;
             this.btn11.UseVisualStyleBackColor = true;
+            this.btn11.Click += new System.EventHandler(this.btn11_Click);
             // 
             // btn21
             // 
