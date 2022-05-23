@@ -82,7 +82,20 @@ namespace Johan_TicTacToe
         }
         private void btn33_Click(object sender, EventArgs e)
         {
+            btn33.Enabled = false;
+            btn33.Visible = false;
+            if (flip)
+            {
+                //MessageBox.Show("0");
+                pctOx3y3.Visible = true;
 
+            }
+            else
+            {
+                //MessageBox.Show("X");
+                pctXx3y3.Visible = true;
+            }
+            flip = !flip;
         }
 
         private void pctXx1y1_Click(object sender, EventArgs e)
@@ -159,6 +172,60 @@ namespace Johan_TicTacToe
             {
                 //MessageBox.Show("X");
                 pctXx2y2.Visible = true;
+            }
+            flip = !flip;
+        }
+
+        private void btn32_Click(object sender, EventArgs e)
+        {
+            btn32.Enabled = false;
+            btn32.Visible = false;
+            if (flip)
+            {
+                //MessageBox.Show("0");
+                pctOx3y2.Visible = true;
+
+            }
+            else
+            {
+                //MessageBox.Show("X");
+                pctXx3y2.Visible = true;
+            }
+            flip = !flip;
+        }
+
+        private void btn13_Click(object sender, EventArgs e)
+        {
+            btn13.Enabled = false;
+            btn13.Visible = false;
+            if (flip)
+            {
+                //MessageBox.Show("0");
+                pctOx1y3.Visible = true;
+
+            }
+            else
+            {
+                //MessageBox.Show("X");
+                pctXx1y3.Visible = true;
+            }
+            flip = !flip;
+        }
+
+        private void btn23_Click(object sender, EventArgs e)
+        {
+            btn23.Enabled = false;
+            btn23.Visible = false;
+            if (flip)
+            {
+                //MessageBox.Show("0");
+                pctOx2y3.Visible = true;
+
+            }
+            else
+            {
+                //MessageBox.Show("X");
+                pctXx2y3.Visible = true;
             }
             flip = !flip;
         }

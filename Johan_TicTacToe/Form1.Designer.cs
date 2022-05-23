@@ -164,6 +164,7 @@
             this.btn32.Size = new System.Drawing.Size(106, 94);
             this.btn32.TabIndex = 9;
             this.btn32.UseVisualStyleBackColor = true;
+            this.btn32.Click += new System.EventHandler(this.btn32_Click);
             // 
             // btn22
             // 
@@ -199,6 +200,7 @@
             this.btn23.Size = new System.Drawing.Size(106, 94);
             this.btn23.TabIndex = 11;
             this.btn23.UseVisualStyleBackColor = true;
+            this.btn23.Click += new System.EventHandler(this.btn23_Click);
             // 
             // btn13
             // 
@@ -207,11 +209,12 @@
             this.btn13.Size = new System.Drawing.Size(106, 94);
             this.btn13.TabIndex = 10;
             this.btn13.UseVisualStyleBackColor = true;
+            this.btn13.Click += new System.EventHandler(this.btn13_Click);
             // 
             // pctOx1y1
             // 
             this.pctOx1y1.Image = ((System.Drawing.Image)(resources.GetObject("pctOx1y1.Image")));
-            this.pctOx1y1.Location = new System.Drawing.Point(110, 185);
+            this.pctOx1y1.Location = new System.Drawing.Point(110, 175);
             this.pctOx1y1.Name = "pctOx1y1";
             this.pctOx1y1.Size = new System.Drawing.Size(106, 95);
             this.pctOx1y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -222,7 +225,7 @@
             // pctXx1y1
             // 
             this.pctXx1y1.Image = ((System.Drawing.Image)(resources.GetObject("pctXx1y1.Image")));
-            this.pctXx1y1.Location = new System.Drawing.Point(110, 196);
+            this.pctXx1y1.Location = new System.Drawing.Point(110, 175);
             this.pctXx1y1.Name = "pctXx1y1";
             this.pctXx1y1.Size = new System.Drawing.Size(106, 96);
             this.pctXx1y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -233,7 +236,7 @@
             // pctXx2y1
             // 
             this.pctXx2y1.Image = ((System.Drawing.Image)(resources.GetObject("pctXx2y1.Image")));
-            this.pctXx2y1.Location = new System.Drawing.Point(242, 216);
+            this.pctXx2y1.Location = new System.Drawing.Point(242, 173);
             this.pctXx2y1.Name = "pctXx2y1";
             this.pctXx2y1.Size = new System.Drawing.Size(106, 96);
             this.pctXx2y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -243,7 +246,7 @@
             // pctOx2y1
             // 
             this.pctOx2y1.Image = ((System.Drawing.Image)(resources.GetObject("pctOx2y1.Image")));
-            this.pctOx2y1.Location = new System.Drawing.Point(242, 185);
+            this.pctOx2y1.Location = new System.Drawing.Point(242, 176);
             this.pctOx2y1.Name = "pctOx2y1";
             this.pctOx2y1.Size = new System.Drawing.Size(106, 95);
             this.pctOx2y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -253,7 +256,7 @@
             // pctXx3y1
             // 
             this.pctXx3y1.Image = ((System.Drawing.Image)(resources.GetObject("pctXx3y1.Image")));
-            this.pctXx3y1.Location = new System.Drawing.Point(375, 216);
+            this.pctXx3y1.Location = new System.Drawing.Point(375, 173);
             this.pctXx3y1.Name = "pctXx3y1";
             this.pctXx3y1.Size = new System.Drawing.Size(106, 96);
             this.pctXx3y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -263,7 +266,7 @@
             // pctOx3y1
             // 
             this.pctOx3y1.Image = ((System.Drawing.Image)(resources.GetObject("pctOx3y1.Image")));
-            this.pctOx3y1.Location = new System.Drawing.Point(375, 185);
+            this.pctOx3y1.Location = new System.Drawing.Point(375, 174);
             this.pctOx3y1.Name = "pctOx3y1";
             this.pctOx3y1.Size = new System.Drawing.Size(106, 95);
             this.pctOx3y1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -273,7 +276,7 @@
             // pctXx1y2
             // 
             this.pctXx1y2.Image = ((System.Drawing.Image)(resources.GetObject("pctXx1y2.Image")));
-            this.pctXx1y2.Location = new System.Drawing.Point(110, 345);
+            this.pctXx1y2.Location = new System.Drawing.Point(110, 298);
             this.pctXx1y2.Name = "pctXx1y2";
             this.pctXx1y2.Size = new System.Drawing.Size(106, 96);
             this.pctXx1y2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -283,7 +286,7 @@
             // pctOx1y2
             // 
             this.pctOx1y2.Image = ((System.Drawing.Image)(resources.GetObject("pctOx1y2.Image")));
-            this.pctOx1y2.Location = new System.Drawing.Point(110, 314);
+            this.pctOx1y2.Location = new System.Drawing.Point(110, 298);
             this.pctOx1y2.Name = "pctOx1y2";
             this.pctOx1y2.Size = new System.Drawing.Size(106, 95);
             this.pctOx1y2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -293,7 +296,7 @@
             // pctXx2y2
             // 
             this.pctXx2y2.Image = ((System.Drawing.Image)(resources.GetObject("pctXx2y2.Image")));
-            this.pctXx2y2.Location = new System.Drawing.Point(242, 364);
+            this.pctXx2y2.Location = new System.Drawing.Point(242, 299);
             this.pctXx2y2.Name = "pctXx2y2";
             this.pctXx2y2.Size = new System.Drawing.Size(106, 96);
             this.pctXx2y2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -303,7 +306,7 @@
             // pctOx2y2
             // 
             this.pctOx2y2.Image = ((System.Drawing.Image)(resources.GetObject("pctOx2y2.Image")));
-            this.pctOx2y2.Location = new System.Drawing.Point(242, 333);
+            this.pctOx2y2.Location = new System.Drawing.Point(242, 299);
             this.pctOx2y2.Name = "pctOx2y2";
             this.pctOx2y2.Size = new System.Drawing.Size(106, 95);
             this.pctOx2y2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -313,7 +316,7 @@
             // pctXx3y2
             // 
             this.pctXx3y2.Image = ((System.Drawing.Image)(resources.GetObject("pctXx3y2.Image")));
-            this.pctXx3y2.Location = new System.Drawing.Point(375, 364);
+            this.pctXx3y2.Location = new System.Drawing.Point(375, 300);
             this.pctXx3y2.Name = "pctXx3y2";
             this.pctXx3y2.Size = new System.Drawing.Size(106, 96);
             this.pctXx3y2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -323,7 +326,7 @@
             // pctOx3y2
             // 
             this.pctOx3y2.Image = ((System.Drawing.Image)(resources.GetObject("pctOx3y2.Image")));
-            this.pctOx3y2.Location = new System.Drawing.Point(375, 333);
+            this.pctOx3y2.Location = new System.Drawing.Point(375, 300);
             this.pctOx3y2.Name = "pctOx3y2";
             this.pctOx3y2.Size = new System.Drawing.Size(106, 95);
             this.pctOx3y2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -333,7 +336,7 @@
             // pctXx1y3
             // 
             this.pctXx1y3.Image = ((System.Drawing.Image)(resources.GetObject("pctXx1y3.Image")));
-            this.pctXx1y3.Location = new System.Drawing.Point(110, 504);
+            this.pctXx1y3.Location = new System.Drawing.Point(110, 425);
             this.pctXx1y3.Name = "pctXx1y3";
             this.pctXx1y3.Size = new System.Drawing.Size(106, 96);
             this.pctXx1y3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -343,7 +346,7 @@
             // pctOx1y3
             // 
             this.pctOx1y3.Image = ((System.Drawing.Image)(resources.GetObject("pctOx1y3.Image")));
-            this.pctOx1y3.Location = new System.Drawing.Point(110, 473);
+            this.pctOx1y3.Location = new System.Drawing.Point(110, 429);
             this.pctOx1y3.Name = "pctOx1y3";
             this.pctOx1y3.Size = new System.Drawing.Size(106, 95);
             this.pctOx1y3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -353,7 +356,7 @@
             // pctXx2y3
             // 
             this.pctXx2y3.Image = ((System.Drawing.Image)(resources.GetObject("pctXx2y3.Image")));
-            this.pctXx2y3.Location = new System.Drawing.Point(242, 513);
+            this.pctXx2y3.Location = new System.Drawing.Point(242, 428);
             this.pctXx2y3.Name = "pctXx2y3";
             this.pctXx2y3.Size = new System.Drawing.Size(106, 96);
             this.pctXx2y3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -363,7 +366,7 @@
             // pctOx2y3
             // 
             this.pctOx2y3.Image = ((System.Drawing.Image)(resources.GetObject("pctOx2y3.Image")));
-            this.pctOx2y3.Location = new System.Drawing.Point(242, 482);
+            this.pctOx2y3.Location = new System.Drawing.Point(242, 428);
             this.pctOx2y3.Name = "pctOx2y3";
             this.pctOx2y3.Size = new System.Drawing.Size(106, 95);
             this.pctOx2y3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -373,7 +376,7 @@
             // pctXx3y3
             // 
             this.pctXx3y3.Image = ((System.Drawing.Image)(resources.GetObject("pctXx3y3.Image")));
-            this.pctXx3y3.Location = new System.Drawing.Point(375, 513);
+            this.pctXx3y3.Location = new System.Drawing.Point(375, 427);
             this.pctXx3y3.Name = "pctXx3y3";
             this.pctXx3y3.Size = new System.Drawing.Size(106, 96);
             this.pctXx3y3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -383,7 +386,7 @@
             // pctOx3y3
             // 
             this.pctOx3y3.Image = ((System.Drawing.Image)(resources.GetObject("pctOx3y3.Image")));
-            this.pctOx3y3.Location = new System.Drawing.Point(375, 482);
+            this.pctOx3y3.Location = new System.Drawing.Point(375, 427);
             this.pctOx3y3.Name = "pctOx3y3";
             this.pctOx3y3.Size = new System.Drawing.Size(106, 95);
             this.pctOx3y3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
