@@ -15,3 +15,4 @@ E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-window
 E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\Johan_TicTacToe.pdb
 E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\Johan_TicTacToe.genruntimeconfig.cache
 E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\ref\Johan_TicTacToe.dll
+E:\Programming\TicTacToe\Johan_TicTacToe\Johan_TicTacToe\obj\Debug\net6.0-windows\Johan_TicTacToe.Properties.Resources.resources
