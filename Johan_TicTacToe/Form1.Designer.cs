@@ -33,6 +33,15 @@
             this.btnMenu = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btn11 = new System.Windows.Forms.Button();
+            this.btn21 = new System.Windows.Forms.Button();
+            this.btn31 = new System.Windows.Forms.Button();
+            this.btn32 = new System.Windows.Forms.Button();
+            this.btn22 = new System.Windows.Forms.Button();
+            this.btn12 = new System.Windows.Forms.Button();
+            this.btn33 = new System.Windows.Forms.Button();
+            this.btn23 = new System.Windows.Forms.Button();
+            this.btn13 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -85,11 +94,92 @@
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
+            // btn11
+            // 
+            this.btn11.Location = new System.Drawing.Point(110, 175);
+            this.btn11.Name = "btn11";
+            this.btn11.Size = new System.Drawing.Size(106, 94);
+            this.btn11.TabIndex = 4;
+            this.btn11.UseVisualStyleBackColor = true;
+            // 
+            // btn21
+            // 
+            this.btn21.Location = new System.Drawing.Point(242, 175);
+            this.btn21.Name = "btn21";
+            this.btn21.Size = new System.Drawing.Size(106, 94);
+            this.btn21.TabIndex = 5;
+            this.btn21.UseVisualStyleBackColor = true;
+            // 
+            // btn31
+            // 
+            this.btn31.Location = new System.Drawing.Point(375, 175);
+            this.btn31.Name = "btn31";
+            this.btn31.Size = new System.Drawing.Size(106, 94);
+            this.btn31.TabIndex = 6;
+            this.btn31.UseVisualStyleBackColor = true;
+            // 
+            // btn32
+            // 
+            this.btn32.Location = new System.Drawing.Point(375, 298);
+            this.btn32.Name = "btn32";
+            this.btn32.Size = new System.Drawing.Size(106, 94);
+            this.btn32.TabIndex = 9;
+            this.btn32.UseVisualStyleBackColor = true;
+            // 
+            // btn22
+            // 
+            this.btn22.Location = new System.Drawing.Point(242, 298);
+            this.btn22.Name = "btn22";
+            this.btn22.Size = new System.Drawing.Size(106, 94);
+            this.btn22.TabIndex = 8;
+            this.btn22.UseVisualStyleBackColor = true;
+            // 
+            // btn12
+            // 
+            this.btn12.Location = new System.Drawing.Point(110, 298);
+            this.btn12.Name = "btn12";
+            this.btn12.Size = new System.Drawing.Size(106, 94);
+            this.btn12.TabIndex = 7;
+            this.btn12.UseVisualStyleBackColor = true;
+            // 
+            // btn33
+            // 
+            this.btn33.Location = new System.Drawing.Point(375, 427);
+            this.btn33.Name = "btn33";
+            this.btn33.Size = new System.Drawing.Size(106, 94);
+            this.btn33.TabIndex = 12;
+            this.btn33.UseVisualStyleBackColor = true;
+            // 
+            // btn23
+            // 
+            this.btn23.Location = new System.Drawing.Point(242, 427);
+            this.btn23.Name = "btn23";
+            this.btn23.Size = new System.Drawing.Size(106, 94);
+            this.btn23.TabIndex = 11;
+            this.btn23.UseVisualStyleBackColor = true;
+            // 
+            // btn13
+            // 
+            this.btn13.Location = new System.Drawing.Point(110, 427);
+            this.btn13.Name = "btn13";
+            this.btn13.Size = new System.Drawing.Size(106, 94);
+            this.btn13.TabIndex = 10;
+            this.btn13.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(590, 598);
+            this.Controls.Add(this.btn33);
+            this.Controls.Add(this.btn23);
+            this.Controls.Add(this.btn13);
+            this.Controls.Add(this.btn32);
+            this.Controls.Add(this.btn22);
+            this.Controls.Add(this.btn12);
+            this.Controls.Add(this.btn31);
+            this.Controls.Add(this.btn21);
+            this.Controls.Add(this.btn11);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnMenu);
@@ -113,5 +203,14 @@
         private Button btnMenu;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private Button btn11;
+        private Button btn21;
+        private Button btn31;
+        private Button btn32;
+        private Button btn22;
+        private Button btn12;
+        private Button btn33;
+        private Button btn23;
+        private Button btn13;
     }
 }
