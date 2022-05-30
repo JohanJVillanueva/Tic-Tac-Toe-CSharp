@@ -60,6 +60,7 @@
             this.pctOx2y3 = new System.Windows.Forms.PictureBox();
             this.pctXx3y3 = new System.Windows.Forms.PictureBox();
             this.pctOx3y3 = new System.Windows.Forms.PictureBox();
+            this.lblStart = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctOx1y1)).BeginInit();
@@ -393,11 +394,24 @@
             this.pctOx3y3.TabIndex = 29;
             this.pctOx3y3.TabStop = false;
             // 
+            // lblStart
+            // 
+            this.lblStart.AutoSize = true;
+            this.lblStart.Font = new System.Drawing.Font("Shark Party", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblStart.ForeColor = System.Drawing.Color.DarkRed;
+            this.lblStart.Location = new System.Drawing.Point(201, 116);
+            this.lblStart.Name = "lblStart";
+            this.lblStart.Size = new System.Drawing.Size(186, 17);
+            this.lblStart.TabIndex = 31;
+            this.lblStart.Text = "Game will start with X";
+            this.lblStart.Click += new System.EventHandler(this.lblStart_Click);
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(590, 598);
+            this.Controls.Add(this.lblStart);
             this.Controls.Add(this.pctXx3y3);
             this.Controls.Add(this.pctOx3y3);
             this.Controls.Add(this.pctXx2y3);
@@ -457,6 +471,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pctXx3y3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctOx3y3)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -493,5 +508,6 @@
         private PictureBox pctOx2y3;
         private PictureBox pctXx3y3;
         private PictureBox pctOx3y3;
+        private Label lblStart;
     }
 }

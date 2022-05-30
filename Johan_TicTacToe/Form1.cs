@@ -58,14 +58,17 @@ namespace Johan_TicTacToe
             flip = !flip;
             if (flip)
             {
+                lblStart.Text = ("Game will start with 0");
                 MessageBox.Show("Game will start with 0");
+                
                 
 
             }
             else
             {
+                lblStart.Text = ("Game will start with X");
                 MessageBox.Show("Game will start with X");
-
+                
             }
 
         }
@@ -254,6 +257,11 @@ namespace Johan_TicTacToe
                 pctXx2y3.Visible = true;
             }
             flip = !flip;
+        }
+
+        private void lblStart_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
