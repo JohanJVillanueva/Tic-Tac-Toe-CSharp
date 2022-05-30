@@ -37,6 +37,11 @@ namespace Johan_TicTacToe
 
             pctOx3y3.Visible = false;
             pctXx3y3.Visible = false;
+
+
+
+
+
         }
 
 
@@ -98,6 +103,51 @@ namespace Johan_TicTacToe
                 //MessageBox.Show("X");
                 pctXx1y1.Visible = true;
             }
+
+            if (pctOx1y1.Visible)
+            {
+                //0XX
+                //0XX
+                //0XX
+                if (pctOx1y2.Visible)
+                {
+                    if (pctOx1y3.Visible)
+                    {
+                        MessageBox.Show("We have a winner! 0");
+                    }
+                }
+
+                //0XX
+                //X0X
+                //XX0
+                if (pctOx2y2.Visible)
+                {
+                    if (pctOx3y3.Visible)
+                    {
+                        MessageBox.Show("We have a winner! 0");
+                    }
+                }
+
+                //000
+                //XXX
+                //XXX
+                if (pctOx2y1.Visible)
+                {
+                    if (pctOx3y1.Visible)
+                    {
+                        MessageBox.Show("We have a winner! 0");
+                    }
+                }
+
+
+
+
+            }
+
+
+
+
+
             flip = !flip;
 
         }
