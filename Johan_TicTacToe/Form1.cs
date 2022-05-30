@@ -134,7 +134,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctOx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! 0");
+                        //MessageBox.Show("We have a winner! 0");
                     }
                 }
             }
@@ -210,7 +210,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctOx3y3.Visible)
                     {
-                        MessageBox.Show("We have a winner! 0");
+                        //MessageBox.Show("We have a winner! 0");
                     }
                 }
             }
@@ -248,7 +248,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctXx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! X");
+                        //MessageBox.Show("We have a winner! X");
                     }
                 }
             }
@@ -325,7 +325,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctXx3y3.Visible)
                     {
-                        MessageBox.Show("We have a winner! X");
+                        //MessageBox.Show("We have a winner! X");
                     }
                 }
             }
@@ -384,7 +384,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctOx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! 0");
+                        //MessageBox.Show("We have a winner! 0");
                     }
                 }
             }
@@ -499,7 +499,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctXx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! X");
+                        //MessageBox.Show("We have a winner! X");
                     }
                 }
             }
@@ -641,7 +641,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctOx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! 0");
+                        //MessageBox.Show("We have a winner! 0");
                     }
                 }
             }
@@ -756,7 +756,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctXx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! X");
+                        //MessageBox.Show("We have a winner! X");
                     }
                 }
             }
@@ -892,7 +892,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctOx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! 0");
+                        //MessageBox.Show("We have a winner! 0");
                     }
                 }
             }
@@ -1007,7 +1007,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctXx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! X");
+                        //MessageBox.Show("We have a winner! X");
                     }
                 }
             }
@@ -1142,7 +1142,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctOx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! 0");
+                        //MessageBox.Show("We have a winner! 0");
                     }
                 }
             }
@@ -1257,7 +1257,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctXx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! X");
+                        //MessageBox.Show("We have a winner! X");
                     }
                 }
             }
@@ -1393,7 +1393,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctOx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! 0");
+                        //MessageBox.Show("We have a winner! 0");
                     }
                 }
             }
@@ -1508,7 +1508,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctXx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! X");
+                        //MessageBox.Show("We have a winner! X");
                     }
                 }
             }
@@ -1644,7 +1644,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctOx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! 0");
+                        //MessageBox.Show("We have a winner! 0");
                     }
                 }
             }
@@ -1759,7 +1759,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctXx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! X");
+                        //MessageBox.Show("We have a winner! X");
                     }
                 }
             }
@@ -1895,7 +1895,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctOx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! 0");
+                        //MessageBox.Show("We have a winner! 0");
                     }
                 }
             }
@@ -2010,7 +2010,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctXx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! X");
+                        //MessageBox.Show("We have a winner! X");
                     }
                 }
             }
@@ -2146,7 +2146,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctOx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! 0");
+                        //MessageBox.Show("We have a winner! 0");
                     }
                 }
             }
@@ -2261,7 +2261,7 @@ namespace Johan_TicTacToe
                 {
                     if (pctXx3y1.Visible)
                     {
-                        MessageBox.Show("We have a winner! X");
+                        //MessageBox.Show("We have a winner! X");
                     }
                 }
             }

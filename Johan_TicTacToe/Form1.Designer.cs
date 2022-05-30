@@ -115,7 +115,7 @@
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
             this.pictureBox1.Location = new System.Drawing.Point(193, 23);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(201, 99);
+            this.pictureBox1.Size = new System.Drawing.Size(215, 107);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -399,7 +399,7 @@
             this.lblStart.AutoSize = true;
             this.lblStart.Font = new System.Drawing.Font("Shark Party", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblStart.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblStart.Location = new System.Drawing.Point(201, 116);
+            this.lblStart.Location = new System.Drawing.Point(199, 136);
             this.lblStart.Name = "lblStart";
             this.lblStart.Size = new System.Drawing.Size(186, 17);
             this.lblStart.TabIndex = 31;
