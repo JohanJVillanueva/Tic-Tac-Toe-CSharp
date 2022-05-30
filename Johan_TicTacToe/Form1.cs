@@ -7,6 +7,7 @@ namespace Johan_TicTacToe
         public Form1()
         {
             InitializeComponent();
+
             //First Row
             pctOx1y1.Visible = false;
             pctXx1y1.Visible = false;
@@ -45,12 +46,13 @@ namespace Johan_TicTacToe
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Application.Restart();
+            Environment.Exit(0);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Test");
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
