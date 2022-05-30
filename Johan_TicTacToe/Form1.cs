@@ -43,10 +43,7 @@ namespace Johan_TicTacToe
 
 
         }
-
-
-
-
+            
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -104,6 +101,8 @@ namespace Johan_TicTacToe
                 pctXx1y1.Visible = true;
             }
 
+            //AI CODE FOR 0
+
             if (pctOx1y1.Visible)
             {
                 //0XX
@@ -138,14 +137,85 @@ namespace Johan_TicTacToe
                         MessageBox.Show("We have a winner! 0");
                     }
                 }
-
-
-
-
             }
 
+            if (pctOx1y1.Visible)
+            {
+                //X0X
+                //X0X
+                //X0X
+                if (pctOx1y2.Visible)
+                {
+                    if (pctOx1y3.Visible)
+                    {
+                        MessageBox.Show("We have a winner! 0");
+                    }
+                }
+            }
 
+            if (pctOx3y1.Visible)
+            {
+                //XX0
+                //XX0
+                //XX0
+                if (pctOx3y2.Visible)
+                {
+                    if (pctOx3y3.Visible)
+                    {
+                        MessageBox.Show("We have a winner! 0");
+                    }
+                }
 
+                //XX0
+                //X0X
+                //0XX
+                if (pctOx2y2.Visible)
+                {
+                    if (pctOx1y3.Visible)
+                    {
+                        MessageBox.Show("We have a winner! 0");
+                    }
+                }
+
+                //000
+                //XXX
+                //XXX
+                if (pctOx2y1.Visible)
+                {
+                    if (pctOx1y1.Visible)
+                    {
+                        MessageBox.Show("We have a winner! 0");
+                    }
+                }
+            }
+            if (pctOx1y2.Visible) { 
+                //XXX
+                //000
+                //XXX
+                if (pctOx2y2.Visible)
+                {
+                    if (pctOx3y2.Visible)
+                    {
+                        MessageBox.Show("We have a winner! 0");
+                    }
+                }
+            }
+
+            if (pctOx1y3.Visible)
+            {
+                //XXX
+                //XXX
+                //000
+                if (pctOx2y3.Visible)
+                {
+                    if (pctOx3y3.Visible)
+                    {
+                        MessageBox.Show("We have a winner! 0");
+                    }
+                }
+            }
+
+            //AI Code for X
 
 
             flip = !flip;
