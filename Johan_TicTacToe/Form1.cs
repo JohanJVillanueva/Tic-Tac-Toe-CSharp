@@ -39,6 +39,9 @@ namespace Johan_TicTacToe
             pctXx3y3.Visible = false;
         }
 
+
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -52,7 +55,19 @@ namespace Johan_TicTacToe
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Test");
+            flip = !flip;
+            if (flip)
+            {
+                MessageBox.Show("Game will start with 0");
+                
+
+            }
+            else
+            {
+                MessageBox.Show("Game will start with X");
+
+            }
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -67,6 +82,7 @@ namespace Johan_TicTacToe
         {
             btn11.Enabled = false;
             btn11.Visible = false;
+            btnMenu.Enabled = false;
      
             if (flip)
             {
@@ -86,6 +102,7 @@ namespace Johan_TicTacToe
         {
             btn33.Enabled = false;
             btn33.Visible = false;
+            btnMenu.Enabled = false;
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -109,7 +126,8 @@ namespace Johan_TicTacToe
         {
             btn21.Enabled = false;
             btn21.Visible = false;
-            
+            btnMenu.Enabled = false;
+
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -128,6 +146,7 @@ namespace Johan_TicTacToe
         {
             btn31.Enabled = false;
             btn31.Visible = false;
+            btnMenu.Enabled = false;
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -146,6 +165,7 @@ namespace Johan_TicTacToe
         {
             btn12.Enabled = false;
             btn12.Visible = false;
+            btnMenu.Enabled = false;
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -164,6 +184,7 @@ namespace Johan_TicTacToe
         {
             btn22.Enabled = false;
             btn22.Visible = false;
+            btnMenu.Enabled = false;
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -182,6 +203,7 @@ namespace Johan_TicTacToe
         {
             btn32.Enabled = false;
             btn32.Visible = false;
+            btnMenu.Enabled = false;
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -200,6 +222,7 @@ namespace Johan_TicTacToe
         {
             btn13.Enabled = false;
             btn13.Visible = false;
+            btnMenu.Enabled = false;
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -218,6 +241,7 @@ namespace Johan_TicTacToe
         {
             btn23.Enabled = false;
             btn23.Visible = false;
+            btnMenu.Enabled = false;
             if (flip)
             {
                 //MessageBox.Show("0");
