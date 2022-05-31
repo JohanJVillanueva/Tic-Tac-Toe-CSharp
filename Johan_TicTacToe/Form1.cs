@@ -102,6 +102,7 @@ namespace Johan_TicTacToe
             }
 
             //AI CODE FOR 0
+            
 
             if (pctOx1y1.Visible)
             {
@@ -113,6 +114,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -124,6 +127,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -149,6 +154,8 @@ namespace Johan_TicTacToe
                     if (pctOx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -163,6 +170,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -174,6 +183,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -185,6 +196,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -197,6 +210,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -227,6 +242,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -238,6 +255,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -263,6 +282,8 @@ namespace Johan_TicTacToe
                     if (pctXx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -277,6 +298,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -288,6 +311,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -299,6 +324,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -312,6 +339,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -363,6 +392,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -374,6 +405,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -399,6 +432,8 @@ namespace Johan_TicTacToe
                     if (pctOx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -413,6 +448,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -424,6 +461,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -435,6 +474,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -448,6 +489,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -462,6 +505,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -478,6 +523,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -489,6 +536,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -514,6 +563,8 @@ namespace Johan_TicTacToe
                     if (pctXx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -528,6 +579,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -539,6 +592,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -550,6 +605,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -563,6 +620,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -577,6 +636,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -620,6 +681,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -631,6 +694,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -656,6 +721,8 @@ namespace Johan_TicTacToe
                     if (pctOx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -670,6 +737,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -681,6 +750,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -692,6 +763,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -705,6 +778,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -719,6 +794,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -735,6 +812,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -746,6 +825,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -771,6 +852,8 @@ namespace Johan_TicTacToe
                     if (pctXx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -785,6 +868,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -796,6 +881,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -807,6 +894,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -820,6 +909,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -834,6 +925,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -871,6 +964,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -882,6 +977,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -907,6 +1004,8 @@ namespace Johan_TicTacToe
                     if (pctOx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -921,6 +1020,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -932,6 +1033,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -943,6 +1046,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -956,6 +1061,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -970,6 +1077,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -986,6 +1095,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -997,6 +1108,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1022,6 +1135,8 @@ namespace Johan_TicTacToe
                     if (pctXx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1036,6 +1151,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1047,6 +1164,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1058,6 +1177,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1071,6 +1192,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1085,6 +1208,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1121,6 +1246,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1132,6 +1259,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1157,6 +1286,8 @@ namespace Johan_TicTacToe
                     if (pctOx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1171,6 +1302,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1182,6 +1315,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1193,6 +1328,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1206,6 +1343,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1220,6 +1359,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1236,6 +1377,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1247,6 +1390,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1272,6 +1417,8 @@ namespace Johan_TicTacToe
                     if (pctXx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1286,6 +1433,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1297,6 +1446,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1308,6 +1459,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1321,6 +1474,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1335,6 +1490,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1372,6 +1529,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1383,6 +1542,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1408,6 +1569,8 @@ namespace Johan_TicTacToe
                     if (pctOx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1422,6 +1585,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1433,6 +1598,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1444,6 +1611,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1457,6 +1626,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1471,6 +1642,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1487,6 +1660,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1498,6 +1673,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1523,6 +1700,8 @@ namespace Johan_TicTacToe
                     if (pctXx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1537,6 +1716,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1548,6 +1729,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1559,6 +1742,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1572,6 +1757,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1586,6 +1773,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1623,6 +1812,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1634,6 +1825,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1659,6 +1852,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1673,6 +1868,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1684,6 +1881,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1695,6 +1894,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1708,6 +1909,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1722,6 +1925,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1738,6 +1943,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1749,6 +1956,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1774,6 +1983,8 @@ namespace Johan_TicTacToe
                     if (pctXx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1788,6 +1999,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1799,6 +2012,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1810,6 +2025,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1823,6 +2040,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1837,6 +2056,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1874,6 +2095,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1885,6 +2108,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1910,6 +2135,8 @@ namespace Johan_TicTacToe
                     if (pctOx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1924,6 +2151,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1935,6 +2164,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -1946,6 +2177,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1959,6 +2192,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1973,6 +2208,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -1989,6 +2226,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -2000,6 +2239,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -2025,6 +2266,8 @@ namespace Johan_TicTacToe
                     if (pctXx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -2039,6 +2282,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -2050,6 +2295,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -2061,6 +2308,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -2074,6 +2323,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -2088,6 +2339,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -2125,6 +2378,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -2136,6 +2391,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -2161,6 +2418,8 @@ namespace Johan_TicTacToe
                     if (pctOx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -2175,6 +2434,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -2186,6 +2447,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -2197,6 +2460,8 @@ namespace Johan_TicTacToe
                     if (pctOx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -2210,6 +2475,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -2224,6 +2491,8 @@ namespace Johan_TicTacToe
                     if (pctOx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! 0");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -2240,6 +2509,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -2251,6 +2522,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -2276,6 +2549,8 @@ namespace Johan_TicTacToe
                     if (pctXx2y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -2290,6 +2565,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -2301,6 +2578,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
 
@@ -2312,6 +2591,8 @@ namespace Johan_TicTacToe
                     if (pctXx1y1.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -2325,6 +2606,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y2.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -2339,6 +2622,8 @@ namespace Johan_TicTacToe
                     if (pctXx3y3.Visible)
                     {
                         MessageBox.Show("We have a winner! X");
+                        Application.Restart();
+                        Environment.Exit(0);
                     }
                 }
             }
@@ -2347,6 +2632,8 @@ namespace Johan_TicTacToe
 
             flip = !flip;
         }
+
+
 
         private void lblStart_Click(object sender, EventArgs e)
         {
