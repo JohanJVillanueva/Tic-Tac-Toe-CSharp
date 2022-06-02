@@ -98,7 +98,7 @@
             // btnMenu
             // 
             this.btnMenu.BackColor = System.Drawing.Color.DarkOrange;
-            this.btnMenu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMenu.BackgroundImage")));
+            this.btnMenu.BackgroundImage = global::Johan_TicTacToe.Properties.Resources.menu1;
             this.btnMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMenu.Location = new System.Drawing.Point(453, 25);
             this.btnMenu.Name = "btnMenu";

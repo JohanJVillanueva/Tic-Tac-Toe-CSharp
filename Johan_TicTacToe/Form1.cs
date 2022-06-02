@@ -59,11 +59,13 @@ namespace Johan_TicTacToe
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
             flip = !flip;
             if (flip)
             {
                 lblStart.Text = ("Game will start with 0");
-                MessageBox.Show("Game will start with 0");
+                //MessageBox.Show("Game will start with 0");
+                btnMenu.BackgroundImage = Properties.Resources.menu2;
                 
                 
 
@@ -71,8 +73,9 @@ namespace Johan_TicTacToe
             else
             {
                 lblStart.Text = ("Game will start with X");
-                MessageBox.Show("Game will start with X");
-                
+                //MessageBox.Show("Game will start with X");
+                btnMenu.BackgroundImage = Properties.Resources.menu1;
+
             }
 
         }
