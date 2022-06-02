@@ -3,9 +3,11 @@ namespace Johan_TicTacToe
     public partial class Form1 : Form
     {
         bool flip = false;
+        int count = 0;
 
         public Form1()
         {
+            
             InitializeComponent();
 
             //First Row
@@ -38,7 +40,7 @@ namespace Johan_TicTacToe
             pctOx3y3.Visible = false;
             pctXx3y3.Visible = false;
 
-
+            
 
 
 
@@ -88,6 +90,8 @@ namespace Johan_TicTacToe
             btn11.Enabled = false;
             btn11.Visible = false;
             btnMenu.Enabled = false;
+
+           
      
             if (flip)
             {
@@ -359,6 +363,14 @@ namespace Johan_TicTacToe
                 }
             }
 
+            count = count + 1;
+            if (count == 9)
+            {
+                MessageBox.Show("Draw");
+                Application.Restart();
+                Environment.Exit(0);
+            }
+
 
             flip = !flip;
 
@@ -368,6 +380,8 @@ namespace Johan_TicTacToe
             btn33.Enabled = false;
             btn33.Visible = false;
             btnMenu.Enabled = false;
+
+
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -641,7 +655,13 @@ namespace Johan_TicTacToe
                     }
                 }
             }
-
+            count = count + 1;
+            if (count == 9)
+            {
+                MessageBox.Show("Draw");
+                Application.Restart();
+                Environment.Exit(0);
+            }
 
             flip = !flip;
         }
@@ -656,6 +676,7 @@ namespace Johan_TicTacToe
             btn21.Enabled = false;
             btn21.Visible = false;
             btnMenu.Enabled = false;
+
 
             if (flip)
             {
@@ -930,7 +951,13 @@ namespace Johan_TicTacToe
                     }
                 }
             }
-
+            count = count + 1;
+            if (count == 9)
+            {
+                MessageBox.Show("Draw");
+                Application.Restart();
+                Environment.Exit(0);
+            }
 
             flip = !flip;
         }
@@ -940,6 +967,8 @@ namespace Johan_TicTacToe
             btn31.Enabled = false;
             btn31.Visible = false;
             btnMenu.Enabled = false;
+   
+
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -1214,6 +1243,14 @@ namespace Johan_TicTacToe
                 }
             }
 
+            count = count + 1;
+            if (count == 9)
+            {
+                MessageBox.Show("Draw");
+                Application.Restart();
+                Environment.Exit(0);
+            }
+
             flip = !flip;
         }
 
@@ -1222,6 +1259,8 @@ namespace Johan_TicTacToe
             btn12.Enabled = false;
             btn12.Visible = false;
             btnMenu.Enabled = false;
+     
+
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -1496,6 +1535,13 @@ namespace Johan_TicTacToe
                 }
             }
 
+            count = count + 1;
+            if (count == 9)
+            {
+                MessageBox.Show("Draw");
+                Application.Restart();
+                Environment.Exit(0);
+            }
 
             flip = !flip;
         }
@@ -1505,6 +1551,8 @@ namespace Johan_TicTacToe
             btn22.Enabled = false;
             btn22.Visible = false;
             btnMenu.Enabled = false;
+           
+
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -1779,6 +1827,13 @@ namespace Johan_TicTacToe
                 }
             }
 
+            count = count + 1;
+            if (count == 9)
+            {
+                MessageBox.Show("Draw");
+                Application.Restart();
+                Environment.Exit(0);
+            }
 
             flip = !flip;
         }
@@ -1788,6 +1843,8 @@ namespace Johan_TicTacToe
             btn32.Enabled = false;
             btn32.Visible = false;
             btnMenu.Enabled = false;
+           
+
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -2002,7 +2059,7 @@ namespace Johan_TicTacToe
                         Application.Restart();
                         Environment.Exit(0);
                     }
-                }
+                } 
 
                 //XX0
                 //X0X
@@ -2061,7 +2118,13 @@ namespace Johan_TicTacToe
                     }
                 }
             }
-
+            count = count + 1;
+            if (count == 9)
+            {
+                MessageBox.Show("Draw");
+                Application.Restart();
+                Environment.Exit(0);
+            }
 
             flip = !flip;
         }
@@ -2071,6 +2134,8 @@ namespace Johan_TicTacToe
             btn13.Enabled = false;
             btn13.Visible = false;
             btnMenu.Enabled = false;
+
+
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -2345,7 +2410,13 @@ namespace Johan_TicTacToe
                 }
             }
 
-
+            count = count + 1;
+            if (count == 9)
+            {
+                MessageBox.Show("Draw");
+                Application.Restart();
+                Environment.Exit(0);
+            }
             flip = !flip;
         }
 
@@ -2354,6 +2425,8 @@ namespace Johan_TicTacToe
             btn23.Enabled = false;
             btn23.Visible = false;
             btnMenu.Enabled = false;
+
+
             if (flip)
             {
                 //MessageBox.Show("0");
@@ -2628,7 +2701,13 @@ namespace Johan_TicTacToe
                 }
             }
 
-
+            count = count + 1;
+            if (count == 9)
+            {
+                MessageBox.Show("Draw");
+                Application.Restart();
+                Environment.Exit(0);
+            }
 
             flip = !flip;
         }
